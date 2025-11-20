@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: radial-gradient(circle at top, #eef2ff, #ffffff 45%);
+  min-height: 100vh;
+}
+
+.container {
+  @apply mx-auto max-w-5xl px-6;
+}
